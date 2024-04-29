@@ -188,27 +188,24 @@
             <div class="container">
                <div class="book-course-form">
                   <h4>Start Your Driving Course</h4>
-                  <form action="#" class="booking-form">
+                  <form action="https://formcarry.com/s/uBChiglCIJb"
+                  method="POST"
+                  enctype="multipart/form-data" class="booking-form">
                      <div class="form-group">
                         <label for="name">Your Name*</label>
-                        <input type="text" id="name" placeholder="Name" required="">
+                        <input type="text" id="name" placeholder="Name" name="Name" required="">
                      </div>
                      <div class="form-group">
                         <label for="email">Your Email*</label>
-                        <input type="email" id="email" placeholder="Email" required="">
+                        <input type="email" id="email" placeholder="Email" name="Email" required="">
                      </div>
                      <div class="form-group">
-                        <label for="course-plan">Choose A Course</label>
-                        <select name="course-plan" id="course-plan">
-                           <option value="0">Select Course</option>
-                           <option value="1">Foreign Driving</option>
-                           <option value="2">Teen Driving</option>
-                           <option value="2">Pre-licensing Course</option>
-                        </select>
+                        <label for="phone">Your Phone*</label>
+                        <input type="tel" id="phone" placeholder="Phone" name="Phone" required="">
                      </div>
                      <div class="form-group">
-                        <label for="date">Date Booking*</label>
-                        <input type="date" id="date" required="">
+                        <label for="date">Date to start*</label>
+                        <input type="date" id="date" name="Date" required="">
                      </div>
                      <div class="form-group">
                         <button type="submit" class="btn style1 w-100 d-block">Book Now</button>
@@ -428,18 +425,20 @@
                         <div class="quote-title">
                            <h2>Request A Quote</h2>
                         </div>
-                        <form method="POST" action="sendmail.php">
+                        <form action="https://formcarry.com/s/uBChiglCIJb"
+                        method="POST"
+                        enctype="multipart/form-data">
                            <div class="form-group">
-                              <input type="text" placeholder="Your Name" name="name">
+                              <input type="text" placeholder="Your Name" name="Name">
                            </div>
                            <div class="form-group">
-                              <input type="email" placeholder="Your Email" name="email">
+                              <input type="email" placeholder="Your Email" name="Email">
                            </div>
                            <div class="form-group">
-                              <input type="tel" placeholder="Your Phone Number" name="phone">
+                              <input type="tel" placeholder="Your Phone Number" name="Phone">
                            </div>
                            <div class="form-group">
-                              <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your Message" name="message" ></textarea>
+                              <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Your Message" ></textarea>
                            </div>
                            <div class="form-group">
                               <button type="submit" class="btn style1">Submit Query</button>
