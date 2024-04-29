@@ -5702,6 +5702,13 @@ article .post-img img {
   background-color: #ff9900;
 }
 
+@media only screen and (min-width: 1024px) {
+  .content-centre {
+    justify-content: center !important;
+  }
+}
+
+
 .copyright-text {
   padding: 25px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
